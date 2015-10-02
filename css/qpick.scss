@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nanum Barun Gothic Regular'), local('Nanum Barun Gothic-Regular'), local('NanumBarunGothic Regular');
+  src: url(../fonts/NanumBarunGothic.eot);
+  src: url(../fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothic.woff) format('woff'),
+       url(../fonts/NanumBarunGothic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nanum Barun Gothic Bold'), local('Nanum Barun Gothic-Bold'), local('NanumBarunGothic Bold');
+  src: url(../fonts/NanumBarunGothicBold.eot);
+  src: url(../fonts/NanumBarunGothicBold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothicBold.woff) format('woff'),
+       url(../fonts/NanumBarunGothicBold.ttf) format('truetype');
+}
+
+body {
+  font-family: "Nanum Barun Gothic", Helvetica;
+}
+
+#nav-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  #logo {
+    display: inline-block;
+    width: 126px;
+    height: 48px;
+    background-image: url('../images/logo.png');
+    background-size: 126px 48px;
+    margin-left: 20px;
+    margin-top: 15px;
+    text-indent: -9999px;
+  }
+  ul {
+    float: right;
+    display: inline-block;
+    margin-right: 55px;
+    margin-top: 25px;
+    li {
+      margin-left: 85px;
+      display: inline-block;
+      a {
+        color: #555555;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.section {
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  h2, h3 {
+    color: white;
+  }
+  h2 {
+    font-size: 260%;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 180%;
+    font-weight: normal;
+    margin-top: 55px;
+  }
+  &.text-left {
+    h2, h3 {
+      padding-left: 50px;
+    }
+  }
+  &.text-right {
+    text-align: right;
+    h2, h3 {
+      padding-right: 50px;
+    }
+  }
+  &.text-center {
+    text-align: center;
+  }
+  &.text-vertical-center {
+    padding: 300px 0;
+  }
+  &.text-top {
+    padding: 150px 0 450px;
+  }
+  &.text-bottom {
+    padding: 500px 0 100px;
+  }
+}
+#home {
+  background-image: url('../images/background/01ball.gif');
+  h3 {
+    color: #434343;
+    font-size: 260%;
+  }
+  h2 {
+    color: #EB262F;
+    font-size: 360%;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+}
+#company {
+  background-image: url('../images/background/02calculate.gif');
+}
+#font {
+  background-image: url('../images/background/03font.gif');
+}
+#shopping {
+  background-image: url('../images/background/04shopping.gif');
+}
+#search {
+  background-image: url('../images/background/05search.gif');
+}
+#easy {
+  background-image: url('../images/background/06easy.gif');
+}
+#vision {
+  background-image: url('../images/background/07vision.gif');
+}
+#sky {
+  background-image: url('../images/background/08sky.gif');
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  h3 {
+    font-size: 200%;
+    color: #424242;
+    font-weight: bold;
+  }
+}
+
+.service-section {
+  text-align: center;
+  padding: 50px 0 55px;
+  h2 {
+    color: #535353;
+    font-size: 250%;
+    font-weight: bold;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h3 {
+    color: #121212;
+    font-size: 140%;
+    font-weight: bold;
+  }
+  h4 {
+    color: #686868;
+    font-size: 140%;
+    font-weight: normal;
+    line-height: 1.4em;
+  }
+  
+  &.gray {
+    background-color: #F5F5F5;
+  }
+}
